@@ -1,7 +1,7 @@
 DEPENDENCIES
   basic_security-tlq
-    git: git://github.com/TalkingQuickly/basic_security-tlq.git
-    revision: 903e2a0f1a047331eb47c7a979ff1daf583713ad
+    git: git://github.com/i-pol/basic_security-tlq.git
+    revision: c52a0920bc7559d495533380215570c1ac7d4e1f
   build-essential
     git: git://github.com/opscode-cookbooks/build-essential.git
     revision: 400968913bfa8a4a5c9783b383c3b63899f2fe72
@@ -9,8 +9,8 @@ DEPENDENCIES
     git: git://github.com/edelight/chef-solo-search.git
     revision: 848fad1461c78fd502975f1df2e14eed12610635
   look_and_feel-tlq
-    git: git://github.com/TalkingQuickly/look_and_feel-tlq.git
-    revision: bf3b58e4233af1455a615f66a61cd104d43415b6
+    git: git://github.com/i-pol/look_and_feel-tlq.git
+    revision: 296ff7307863d03899719347f281d5b4d6e77557
   memcached-tlq
     git: git://github.com/TalkingQuickly/memcached-tlq.git
     revision: 8ac6e2c68c32f79efcc4c19c7099b7db72ab158d
@@ -45,7 +45,7 @@ DEPENDENCIES
     revision: 0fd9ee3dcc7bd01f37e2e057b146595a7849e6aa
   sudo
     git: git://github.com/opscode-cookbooks/sudo.git
-    revision: 8bbdff7302f7a86e18d1a3f029813c665b53b322
+    revision: 11c6062031ac8575dc96d3adef94288634439f92
   users
     git: git://github.com/opscode-cookbooks/users.git
     revision: fca9a42ab44dadbb98432c931dfc6c049ecc23ce
@@ -56,7 +56,7 @@ GRAPH
   build-essential (2.0.5)
   chef-solo-search (0.5.1)
   chef-sugar (2.0.0)
-  java (1.22.0)
+  java (1.25.0)
   look_and_feel-tlq (0.0.1)
   memcached-tlq (0.0.2)
   mongo-tlq (0.0.3)
@@ -81,5 +81,5 @@ GRAPH
   sudo (2.6.1)
   users (1.7.1)
   yum (3.2.2)
-  yum-mysql-community (0.1.8)
-    yum (>= 3.0.0)
+  yum-mysql-community (0.1.10)
+    yum (>= 3.0)

@@ -2,8 +2,8 @@ source "https://api.berkshelf.com"
 
 cookbook 'build-essential', github: 'opscode-cookbooks/build-essential'
 cookbook 'sudo', github: 'opscode-cookbooks/sudo'
-cookbook 'basic_security-tlq', github: 'TalkingQuickly/basic_security-tlq'
-cookbook 'look_and_feel-tlq', github: 'TalkingQuickly/look_and_feel-tlq'
+cookbook 'basic_security-tlq', github: 'i-pol/basic_security-tlq'
+cookbook 'look_and_feel-tlq', github: 'i-pol/look_and_feel-tlq'
 cookbook 'users', github: 'opscode-cookbooks/users'
 cookbook 'chef-solo-search', github: 'edelight/chef-solo-search'
 
